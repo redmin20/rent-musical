@@ -10,3 +10,5 @@ comnezando
  components: componentes que reciben informacion mediante los inputs y envian con output
  pages: esto agrupara los componentes del enrutamiento 
 
+primera tocada: comenzando primero tocamos angular.json agregando bootstrap para este proyecto.
+agregamos rutas en app.routes.ts las 4 que usare 

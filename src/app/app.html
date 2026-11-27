@@ -6,22 +6,24 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm mb-4">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-warning shadow-sm mb-4">
   <div class="container">
-    <a class="navbar-brand fw-bold text-danger" routerLink="/equipos">🎸 SoundRent</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+    <a class="navbar-brand fw-bold" style="color: #f5c542;" routerLink="/equipos">
+      🎸 <span class="text-danger">Sound</span>Rent
+    </a>
+    <button class="navbar-toggler border-warning" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="menuNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" routerLink="/equipos" routerLinkActive="active fw-bold text-white">Catálogo de Equipos</a>
+          <a class="nav-link" routerLink="/equipos" routerLinkActive="active fw-bold text-danger">Catálogo de Equipos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/nuevo-alquiler" routerLinkActive="active fw-bold text-white">Registrar Alquiler</a>
+          <a class="nav-link" routerLink="/nuevo-alquiler" routerLinkActive="active fw-bold text-danger">Registrar Alquiler</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/alquileres" routerLinkActive="active fw-bold text-white">Historial</a>
+          <a class="nav-link" routerLink="/alquileres" routerLinkActive="active fw-bold text-danger">Historial</a>
         </li>
       </ul>
     </div>

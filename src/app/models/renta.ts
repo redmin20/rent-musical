@@ -1,7 +1,8 @@
 export interface Equipo {
   id: number;
   nombre: string;
-  categoria: string; // 
+  descripcion: string;
+  categoria: string; 
   precioDia: number;
   disponibles: number;
   totalStock: number;

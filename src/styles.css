@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fondo general negro carbón y texto blanco en toda la app */
+body {
+  background-color: #0b0b0d !important;
+  color: #ffffff !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Títulos principales con acento dorado */
+h1, h2, h4 {
+  color: #f5c542;
+}
+
+/* Sobrescribir contenedores claros de Bootstrap (como el buscador en Catálogo) */
+.bg-light, .bg-white {
+  background-color: #16161a !important;
+  color: #ffffff !important;
+  border-color: #d4af37 !important; /* Borde dorado */
+}
+
+/* Tarjetas (Catálogo, Formulario y Detalle) */
+.card {
+  background-color: #16161a !important;
+  color: #ffffff !important;
+  border: 1.5px solid #d4af37 !important; /* Borde dorado */
+  box-shadow: 0 6px 18px rgba(212, 175, 55, 0.12) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(220, 38, 38, 0.28) !important;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #7f1d1d 0%, #16161a 100%) !important;
+  border-bottom: 1.5px solid #d4af37 !important;
+  color: #ffffff !important;
+}
+
+.card-footer {
+  background-color: #111114 !important;
+  border-top: 1px solid #d4af37 !important;
+}
+
+/* Textos secundarios dentro de tarjetas */
+.text-muted {
+  color: #b5b5be !important;
+}
+
+.text-dark {
+  color: #f5c542 !important; /* Resalta precios en dorado */
+}
+
+/* Inputs y Selects (Buscador y Formularios) */
+.form-control, .form-select {
+  background-color: #0f0f12 !important;
+  color: #ffffff !important;
+  border: 1px solid #d4af37 !important;
+}
+
+.form-control::placeholder {
+  color: #888894 !important;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 0.2rem rgba(239, 68, 68, 0.35) !important;
+}
+
+/* Tablas (Pantalla de Historial) */
+.table {
+  --bs-table-bg: #16161a;
+  --bs-table-color: #ffffff;
+  --bs-table-hover-bg: #221417;
+  --bs-table-hover-color: #ffffff;
+  border: 1.5px solid #d4af37;
+}
+
+.table-dark th {
+  background-color: #7f1d1d !important; /* Encabezado de tabla en rojo oscuro */
+  color: #f5c542 !important;            /* Letras doradas */
+  border-bottom: 2px solid #d4af37 !important;
+}
+
+/* Botón outline oscuro adaptado a dorado/blanco en el historial */
+.btn-outline-dark {
+  color: #f5c542 !important;
+  border-color: #d4af37 !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: #dc2626 !important;
+  border-color: #dc2626 !important;
+  color: #ffffff !important;
+}
+
+/* Caja de resumen de total en el formulario */
+.alert-secondary {
+  background-color: #1f1214 !important;
+  color: #ffffff !important;
+  border: 1px solid #dc2626 !important;
+}
